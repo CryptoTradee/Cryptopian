@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Cryptopian</id>
+    <version>0.1.0</version>
+    <authors>Phyyl</authors>
+    <owners>Phyyl</owners>
+    <licenseUrl>https://github.com/Phyyl/Cryptopian/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Phyyl/Cryptopian</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Cryptopia API</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2018 (c) Philippe Pare</copyright>
+    <tags>cryptopia api btc bitcoin eth ethereum</tags>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Newtonsoft.Json" version="10.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Cryptopian\bin\Release\netstandard2.0\Cryptopian.dll" target="lib\netstandard2.0\Cryptopian.dll"/>
+  </files>
+</package>
